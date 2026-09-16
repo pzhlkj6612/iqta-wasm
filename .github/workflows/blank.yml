@@ -47,5 +47,4 @@ jobs:
           version: ${{ matrix.qt_ver }}
           target: wasm
           host: all_os
-          modules: qtsensors
           arch: wasm_singlethread
